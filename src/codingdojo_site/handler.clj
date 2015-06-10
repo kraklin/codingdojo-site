@@ -21,6 +21,7 @@
 (defroutes app-routes
   (GET "/" []  (layout/default-page))
   (GET "/:city" [city] (redirect-to-dojo city))
+  (route/resources "/")
   (route/not-found "Not Found"))
 
 (def app
