@@ -12,9 +12,9 @@
             Je to zábava a vítán je každý!"]
 
     :new-dojo [
-               "Pakliže tvé dojo není ještě na seznamu? Neváhej poslat <a href=''>pull-request</a>."
+               "Pakliže tvé dojo není ještě na seznamu? Neváhej poslat <a href='https://github.com/jirkapenzes/codingdojo-site'>pull-request</a>."
                "Chceš pořádat Doja a nevíš jak začít? Rádi ti pomůžeme.
-               Ozvat se můžeš třeba na <a href=''>email</a> ;)"]
+               Ozvat se můžeš třeba na <a href='mailto:jirkapenzes@gmail.com'>email</a> ;)"]
 
     :links [
             ["CodeRetreat CZ" "http://coderetreat.cz/"]
@@ -42,7 +42,8 @@
 
     :footer [
              "codingdojo.cz by <a href='http://twitter.com/jirkapenzes'>@jirkapenzes</a>
-             and <a href=''>contributors</a> on <a href=''>GitHub</a>"]})
+               and <a href='https://github.com/jirkapenzes/codingdojo-site/graphs/contributors'>contributors</a>
+               on <a href='https://github.com/jirkapenzes/codingdojo-site'>GitHub</a>"]})
 
 (defn about [] (:about content))
 (defn links [] (:links content))
