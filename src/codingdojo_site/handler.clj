@@ -4,6 +4,7 @@
             [codingdojo-site.dojos :as dojos]
             [compojure.core :refer :all]
             [compojure.route :as route]
+            [ring.adapter.jetty :as jetty]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
 
 (defn dojo-by-city [city]
@@ -24,3 +25,7 @@
 
 (def app
   (wrap-defaults app-routes site-defaults))
+
+(defn -main []
+  (let [port (Integer/parseInt (get (System/getenv) "PORT" "5000"))]
+    (jetty/run-jetty app-routes {:port port})))
