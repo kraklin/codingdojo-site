@@ -5,7 +5,7 @@
             [hiccup.page :refer :all]))
 
 (def includes [(include-js "/js/google-analytics.js")
-               (include-css "http://fonts.googleapis.com/css?family=Gentium+Book+Basic")
+               (include-css "//fonts.googleapis.com/css?family=Gentium+Book+Basic")
                (include-css "/css/design.css")])
 
 (def header [:div { :id "header" } [:h1 "Coding Dojo's"]])
