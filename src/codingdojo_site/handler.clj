@@ -1,6 +1,7 @@
 (ns codingdojo-site.handler
   (:use ring.util.response)
   (:require [codingdojo-site.layout :as layout]
+            [codingdojo-site.dojos :as dojos]
             [compojure.core :refer :all]
             [compojure.route :as route]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
