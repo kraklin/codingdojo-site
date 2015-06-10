@@ -22,7 +22,7 @@
   (GET "/" []  (layout/default-page))
   (GET "/:city" [city] (redirect-to-dojo city))
   (route/resources "/")
-  (route/not-found "Not Found"))
+  (route/not-found (layout/default-page)))
 
 (def app
   (wrap-defaults app-routes site-defaults))
