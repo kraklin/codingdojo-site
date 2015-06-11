@@ -9,7 +9,7 @@
 
             "Zkrátka trénujeme! Dojo se neomezuje na konkrétní jazyky ani na žádnou úroveň dovedností.
             Jazyk i problém je zvolen na začátku každého doja na základě demokratických principů.
-            Je to zábava a vítán je každý!"]
+            Je to zábava a vítán je každý! "]
 
     :new-dojo [
                "Není tvé dojo ještě na seznamu? Pak neváhej poslat <a href='https://github.com/jirkapenzes/codingdojo-site'>pull-request</a>."

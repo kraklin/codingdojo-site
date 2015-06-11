@@ -26,7 +26,7 @@
 
 (def dojos
   [:div { :id "dojos" }
-   [:h1 "Dojo cities"]
+   [:h1 "Dojo list"]
    (for [[_ dojo] (dojos/all)]
      (dojo-section dojo))
    (map #(vector :p %) (content/new-dojo))])

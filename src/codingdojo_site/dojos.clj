@@ -16,6 +16,7 @@
               :events "http://srazy.info/olomoucke-coding-dojo/terminy"
               :organizers [
                            ["@rdresler" "https://twitter.com/rdresler"]]}
+
     :gmcolomouc {
               :name "GMC Coding Dojo"
               :events "http://srazy.info/gmc-coding-dojo/terminy"
