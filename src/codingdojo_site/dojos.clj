@@ -16,6 +16,14 @@
               :events "http://srazy.info/olomoucke-coding-dojo/terminy"
               :organizers [
                            ["@rdresler" "https://twitter.com/rdresler"]]}
+    :gmcolomouc {
+              :name "GMC Coding Dojo"
+              :events "http://srazy.info/gmc-coding-dojo/terminy"
+			  :repository "https://bitbucket.org/mcBIG/gmc-coding-dojo"
+              :organizers [
+                           ["@mcBigCz" "https://twitter.com/mcBIGcz"]
+                           ["@TomasLatal" "https://twitter.com/TomasLatal"]
+						   ]}
 
     :pardubice {
                 :name "Coding Dojo Pardubice"
