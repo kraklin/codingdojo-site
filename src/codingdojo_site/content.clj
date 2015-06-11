@@ -12,7 +12,7 @@
             Je to zábava a vítán je každý!"]
 
     :new-dojo [
-               "Pakliže tvé dojo není ještě na seznamu? Neváhej poslat <a href='https://github.com/jirkapenzes/codingdojo-site'>pull-request</a>."
+               "Není tvé dojo ještě na seznamu? Pak neváhej poslat <a href='https://github.com/jirkapenzes/codingdojo-site'>pull-request</a>."
                "Chceš pořádat Doja a nevíš jak začít? Rádi ti pomůžeme.
                Ozvat se můžeš třeba na <a href='mailto:jirkapenzes@gmail.com'>email</a> ;)"]
 
