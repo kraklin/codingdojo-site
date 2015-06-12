@@ -12,7 +12,7 @@
                           ["@matejhron" "http://twitter.com/matejhron"]] }
 
     :gmcolomouc {
-                 :name "GMC Coding Dojo"
+                 :name "GMC Coding Dojo Olomouc"
                  :events "http://srazy.info/gmc-coding-dojo/terminy"
                  :repository "https://bitbucket.org/mcBIG/gmc-coding-dojo"
                  :organizers [
